@@ -121,6 +121,7 @@ header {
 .section3 p {
     width: 680px;
     font-size: 24px;
+    font-style: italic;
     margin: 0;
     padding: 0;
 } 
