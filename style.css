@@ -29,7 +29,7 @@ header img {
 
 
 header {
-    background-color: #1c232e;
+    background-color: #1f2937;
     color: #eee;
     padding: 8px 10%;
     display: flex;
@@ -47,7 +47,7 @@ header {
     justify-content: center;
     height: 24px;
     width: 64px;
-    background-color: rgb(46, 96, 232);
+    background-color: #3882f6;
     margin: 16px 0;
     padding: 4px 16px;
     border-radius: 5px;
@@ -56,7 +56,7 @@ header {
 
 .section1 {
     display: flex;
-    background-color: #1c232e;
+    background-color: #1f2937;
     color: #eee;
     justify-content: space-around;
     align-items: center;
@@ -97,7 +97,7 @@ header {
     text-align: center;
 }
 .section3 {
-    background-color: #d4dbe3;
+    
 }
 
 /* .section3 {
@@ -109,12 +109,13 @@ header {
 } */
 
 .section3 {
+    background-color: #e5e7eb;
+    padding: 56px 0;
     display: flex;
     flex: 1;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    padding: 48px 0;
 }
 
 .section3 p {
@@ -135,6 +136,7 @@ p.author {
     display: flex;
     justify-content: center;
     color: white;
+    padding: 32px;
 }
 
 .signup-box {
@@ -142,10 +144,10 @@ p.author {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #0076ee;
+    background-color: #3882f6;
     border-radius: 10px;
     margin: 32px 128px;
-    padding-left: 0;
+    padding: 24px 0;
 }
 
 .section4 .left {
@@ -164,4 +166,14 @@ p.author {
 .section4 .button {
     border: 1px solid white;
     text-align: center;
+}
+
+footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #eee;
+    height: 64px;
+   justify-content: center;
+    align-items: center;
+    padding: 16px;
 }
